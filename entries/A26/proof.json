@@ -1,0 +1,35 @@
+{
+  "sha256": "93d26b3ca1c69323e776534b15437454838e88f6a8557ed6af847936fe5bac6e",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "verify_algebra26.py",
+    "verify26.py",
+    "verify26_directed.py",
+    "independent26.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

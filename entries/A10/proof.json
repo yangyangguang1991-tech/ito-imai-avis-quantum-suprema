@@ -1,0 +1,44 @@
+{
+  "sha256": "526778979aa7ac0042858c70584146655da7e3a59370cfce00beddac4efd7cc9",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004",
+    "certificate.zip.part005",
+    "certificate.zip.part006",
+    "certificate.zip.part007",
+    "certificate.zip.part008",
+    "certificate.zip.part009",
+    "certificate.zip.part010",
+    "certificate.zip.part011",
+    "certificate.zip.part012",
+    "certificate.zip.part013"
+  ],
+  "commands": [
+    "replay.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

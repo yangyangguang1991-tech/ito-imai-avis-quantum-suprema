@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+verification-output/
+.DS_Store
+Thumbs.db
+
+# Large proof and runtime data are distributed with the complete release.
+/entries/*/certificate.zip*
+/runtime/*.part*
+
+# Corresponding-source archives are supplied in the complete release.
+/third_party/runtime/sources/

@@ -1,0 +1,32 @@
+{
+  "sha256": "3f8c3f9b99f0e282def880a09d9c5bd1739cf25d51f26dad6e967275e43ff289",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "check.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "sha256": "e2e76b19b3f8a7792cedb2452e9677205e4de3030f555071271e709adb22feb5",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "verify_transfer.py",
+    "path/verify.py",
+    "path/sequence_example.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "path/definition.json",
+      "path": [
+        "active_table"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "A3.json",
+      "path": [],
+      "equals": "probability_matrix"
+    }
+  ]
+}

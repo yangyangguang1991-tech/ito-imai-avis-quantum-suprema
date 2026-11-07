@@ -1,0 +1,32 @@
+{
+  "sha256": "8b50e8d70bef4649c891024c1dd9e8ac6d56ffe5fb075399d29d766e602a8fee",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "algebra/certificate/verify_complete.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "algebra/word_algebra/catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "algebra/word_algebra/catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

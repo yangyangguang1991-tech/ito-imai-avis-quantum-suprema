@@ -1,0 +1,27 @@
+{
+  "sha256": "bdd3ae5af950544cce0cbe008111882fd457392150a998adb1b07d31cda2e118",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004",
+    "certificate.zip.part005",
+    "certificate.zip.part006",
+    "certificate.zip.part007",
+    "certificate.zip.part008"
+  ],
+  "commands": [
+    "run_all.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "components/root_strategy/A51_ROOT_DEFINITION.json",
+      "path": [
+        "T"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

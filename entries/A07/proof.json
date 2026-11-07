@@ -1,0 +1,29 @@
+{
+  "sha256": "6f297101243fb82e3a51f1399d01aadb01176c31239ea9f11797d009a0a3306a",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "verify_transfer.py",
+    "proof/replay_all.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "transfer.json",
+      "path": [
+        "source_probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "transfer.json",
+      "path": [
+        "source_four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

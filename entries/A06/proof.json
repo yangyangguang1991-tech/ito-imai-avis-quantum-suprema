@@ -1,0 +1,30 @@
+{
+  "sha256": "e8f500a1ea9a36686552efc33ba266a96924b80c05aabc4a0d153e11da8c8c94",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002"
+  ],
+  "commands": [
+    "verify_transfer.py",
+    "proof/run_c3_fixed_acceptance_rows.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "transfer.json",
+      "path": [
+        "source_probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "transfer.json",
+      "path": [
+        "source_four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": 2,
+  "m": 2,
+  "n": 2,
+  "probability_matrix": [
+    [
+      0,
+      -1,
+      0
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      -1,
+      1,
+      1
+    ]
+  ],
+  "four_times_reflection_matrix": [
+    [
+      -2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      -1
+    ],
+    [
+      0,
+      1,
+      1
+    ]
+  ],
+  "local_max": 0,
+  "literal_polynomial": "1*X2+1*Y1-1*X1*Y1-1*X2*Y1+1*X1*Y2-1*X2*Y2",
+  "multiplier_for_maximization": -1
+}

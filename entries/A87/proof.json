@@ -1,0 +1,32 @@
+{
+  "sha256": "6717ea33957f28c1fdfdcb2650be2c409d97736248ca2e3f0beb1c3d135a1c3c",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "replay.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "algebra/symmetry/catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "algebra/symmetry/catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

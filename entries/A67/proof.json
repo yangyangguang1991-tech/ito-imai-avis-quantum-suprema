@@ -1,0 +1,21 @@
+{
+  "sha256": "eb63b2be98c99e26979a3993a38225bfeab52938731e492aa98b5620c2dd69e9",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004"
+  ],
+  "commands": [
+    "replay.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "mathematics/stationary_family/baseline/A67_COEFFICIENTS.json",
+      "path": [],
+      "equals": "probability_matrix"
+    }
+  ]
+}

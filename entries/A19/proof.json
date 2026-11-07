@@ -1,0 +1,39 @@
+{
+  "sha256": "eaa5d79ffa311e0c02185378e18ed0bd0f63dbf1cf5ebc5be3213120ad2a2fa4",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "physical19.py",
+    "root19.py",
+    "symmetry19.py",
+    "independent19.py",
+    "exact19.py",
+    "normal19.py",
+    "gram19.py",
+    "independent_global19.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

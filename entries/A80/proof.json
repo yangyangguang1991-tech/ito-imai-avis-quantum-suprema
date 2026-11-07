@@ -1,0 +1,23 @@
+{
+  "sha256": "98b526e7c4153ec722291cbcbb41fcbf78fa16b2dd9284120d4d90b6e1fe5100",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003"
+  ],
+  "commands": [
+    "engine/source/code/bindings.py",
+    "run_all.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "engine/source/data/A80_chart.json",
+      "path": [
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    }
+  ]
+}

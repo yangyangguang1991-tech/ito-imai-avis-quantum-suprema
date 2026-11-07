@@ -1,0 +1,32 @@
+{
+  "sha256": "ed7eb1911414583ce99d6a4e899c40329c1bb2cfc0b607770b993f6eeae2e16e",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "replay_a55.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

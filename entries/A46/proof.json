@@ -1,0 +1,74 @@
+{
+  "sha256": "1bbc2cb221e0403762d24223527e4cc454fc46c0996b62970365d19ef757a5aa",
+  "parts": [
+    "certificate.zip.part001",
+    "certificate.zip.part002",
+    "certificate.zip.part003",
+    "certificate.zip.part004",
+    "certificate.zip.part005",
+    "certificate.zip.part006",
+    "certificate.zip.part007",
+    "certificate.zip.part008",
+    "certificate.zip.part009",
+    "certificate.zip.part010",
+    "certificate.zip.part011",
+    "certificate.zip.part012",
+    "certificate.zip.part013",
+    "certificate.zip.part014",
+    "certificate.zip.part015",
+    "certificate.zip.part016",
+    "certificate.zip.part017",
+    "certificate.zip.part018",
+    "certificate.zip.part019",
+    "certificate.zip.part020",
+    "certificate.zip.part021",
+    "certificate.zip.part022",
+    "certificate.zip.part023",
+    "certificate.zip.part024",
+    "certificate.zip.part025",
+    "certificate.zip.part026",
+    "certificate.zip.part027",
+    "certificate.zip.part028",
+    "certificate.zip.part029",
+    "certificate.zip.part030",
+    "certificate.zip.part031",
+    "certificate.zip.part032",
+    "certificate.zip.part033",
+    "certificate.zip.part034",
+    "certificate.zip.part035",
+    "certificate.zip.part036",
+    "certificate.zip.part037",
+    "certificate.zip.part038",
+    "certificate.zip.part039",
+    "certificate.zip.part040",
+    "certificate.zip.part041",
+    "certificate.zip.part042",
+    "certificate.zip.part043"
+  ],
+  "commands": [
+    "replay.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

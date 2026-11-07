@@ -1,0 +1,18 @@
+{
+  "sha256": "cdf9a008dec5501a7d8dc4ca8039ab949885d64d6b707028a3e9d243e4e3e6ea",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "check.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "literal_coefficients.json",
+      "path": [],
+      "equals": "probability_matrix"
+    }
+  ]
+}

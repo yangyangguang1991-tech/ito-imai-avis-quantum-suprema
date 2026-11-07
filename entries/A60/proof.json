@@ -1,0 +1,29 @@
+{
+  "sha256": "964ab4e5b8f55a7429f3379da98c31cd00ce120c9b0ad35c57fe58a8380b9a1e",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "verify_functional.py",
+    "replay.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "functional.json",
+      "path": [
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "functional.json",
+      "path": [
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}

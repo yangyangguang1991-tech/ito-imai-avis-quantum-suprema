@@ -1,0 +1,34 @@
+{
+  "sha256": "deb314269739b919b52c10cbc76eacee49c38d74ebc80cd14c12704f79371109",
+  "parts": [
+    "certificate.zip"
+  ],
+  "commands": [
+    "verify_symbolic42_core.py",
+    "verify_twirl42.py",
+    "independent42.py"
+  ],
+  "command_directory": "script_parent",
+  "table_bindings": [
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "probability_matrix"
+      ],
+      "equals": "probability_matrix"
+    },
+    {
+      "kind": "json",
+      "file": "catalogue.json",
+      "path": [
+        "rows",
+        0,
+        "four_times_reflection_matrix"
+      ],
+      "equals": "four_times_reflection_matrix"
+    }
+  ]
+}
