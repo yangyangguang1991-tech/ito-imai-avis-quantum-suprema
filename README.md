@@ -107,3 +107,5 @@ companion-catalogue transfers, instance-specific applications of established
 theory, the other exact proof materials supplied here and unresolved entries.
 The [release description](RELEASE.md) provides a concise overview and links to these distinctions.
 Catalogue totals and successful proof replays are not novelty counts.
+
+**Documentation note:** The references to York entries Y059, Y124 and Y168 in the runtime documentation apply only to the companion `bell-quantum-suprema` repository.
