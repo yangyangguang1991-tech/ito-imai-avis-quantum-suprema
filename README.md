@@ -1,5 +1,9 @@
 # Exact Quantum Suprema and Certificates for the Ito-Imai-Avis Bell Catalogue
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24048598.svg)](https://doi.org/10.5281/zenodo.24048598)
+
+**Archived edition:** https://doi.org/10.5281/zenodo.24048598
+
 **First repository edition: v1.0.0**
 
 **Repository author and maintainer:** Yang-Guang Yang  
